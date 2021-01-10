@@ -1,0 +1,74 @@
+/* BOX MODEL - nastavíme intuitivnější box model (border-box) */
+html { box-sizing: border-box; }
+*, *:after, *:before { box-sizing: inherit; }
+
+/*
+Bootstrap 4 breakpointy: 576px, 768px, 992px, 1200px
+xs: (max-width: 575px)
+sm: (min-width: 576px) and (max-width: 767px)
+md: (min-width: 768px) and (max-width: 991px)
+lg: (min-width: 992px) and (max-width: 1199px)
+xl: (min-width: 1200px)
+
+Barvy
+růžová: #c5308a
+světle šedá: #f0f0f0
+*/
+
+/* --- pod tuto čáru piš svoje CSS --------------------------------------- */
+
+body {
+  font-family: 'Lora', serif;
+}
+h2 {
+  font-size: 48px;
+  padding: 30px 0;
+  font-style: italic;
+}
+h3 {
+  color: #c5308a;
+  font-style: italic;
+}
+.email,
+.odkaz {
+  color: #c5308a;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  padding: 1rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #c5308a;
+  color: white;
+}
+.kadernice {
+  padding: 2px;
+  border: 2px dotted #c5308a;
+}
+.akce {
+  background-color: #c5308a;
+  color: white;
+}
+.dark {
+  background-color: #f0f0f0;
+  margin: 0 auto;
+}
+.table {
+  background-color: white;
+}
+.foto {
+  filter: grayscale(1);
+  transition: 500ms;
+}
+.foto:hover {
+  filter: grayscale(0);
+}
+.paticka {
+  font-size: 14px;
+}
+.facebook {
+  list-style: none;
+}
+.odkaz:hover {
+  color: #c5308a;
+}
